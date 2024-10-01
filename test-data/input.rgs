@@ -1,0 +1,26 @@
+HKCR
+{
+	TestApp.TestApp.1 = s 'TestApp Class'
+	{
+		CLSID = s '{45B9C1EF-8636-441F-9E2F-59B248A704E8}'
+	}
+	TestApp.TestApp = s 'TestApp Class'
+	{
+		CLSID = s '{45B9C1EF-8636-441F-9E2F-59B248A704E8}'
+		CurVer = s 'TestApp.TestApp.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {45B9C1EF-8636-441F-9E2F-59B248A704E8} = s 'TestApp Class'
+		{
+			ProgID = s 'TestApp.TestApp.1'
+			VersionIndependentProgID = s 'TestApp.TestApp'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{26410352-9147-4698-94D4-49DB9691C67C}'
+		}
+	}
+}

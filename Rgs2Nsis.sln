@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rgs2Nsis", "src\Rgs2Nsis\Rgs2Nsis.csproj", "{930FA5CB-C696-415A-8675-CB01936DD302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rgs2NsisConverterLib", "src\Rgs2NsisConverterLib\Rgs2NsisConverterLib.csproj", "{4434E24C-6093-432D-B199-8CE63A63D3BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rgs2NsisConverterLib.Test", "tests\Rgs2NsisConverterLib.Test\Rgs2NsisConverterLib.Test.csproj", "{DAD81FB5-54C6-461D-8FB4-A8D0EE5CD47E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{930FA5CB-C696-415A-8675-CB01936DD302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930FA5CB-C696-415A-8675-CB01936DD302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930FA5CB-C696-415A-8675-CB01936DD302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930FA5CB-C696-415A-8675-CB01936DD302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4434E24C-6093-432D-B199-8CE63A63D3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4434E24C-6093-432D-B199-8CE63A63D3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4434E24C-6093-432D-B199-8CE63A63D3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4434E24C-6093-432D-B199-8CE63A63D3BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD81FB5-54C6-461D-8FB4-A8D0EE5CD47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD81FB5-54C6-461D-8FB4-A8D0EE5CD47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD81FB5-54C6-461D-8FB4-A8D0EE5CD47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD81FB5-54C6-461D-8FB4-A8D0EE5CD47E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
